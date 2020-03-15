@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DNS.Server;
+using System.Diagnostics;
 
 namespace MinecraftBedrockRedirect
 {
@@ -113,6 +114,16 @@ namespace MinecraftBedrockRedirect
         private void stopServer()
         {
             server.Dispose();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/KatyushaScarlet/Minecraft-Bedrock-DNS-Redirect/releases");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/KatyushaScarlet");
         }
     }
 }
