@@ -123,7 +123,7 @@ namespace MinecraftBedrockRedirect
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/KatyushaScarlet");
+            Process.Start("https://Katyusha.net");
         }
     }
 }
